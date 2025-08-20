@@ -1,4 +1,4 @@
-# BoIBD - Online Bookstore
+# BoiLagbe - Online Bookstore
 
 A PHP/MySQL-based online bookstore application where users can browse books, add them to cart, and make purchases.
 
