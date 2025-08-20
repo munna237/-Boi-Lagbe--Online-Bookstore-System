@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --bg-color: #f8fafc;
+    --box-color: #ffffff;
+    --highlight-color: #2563eb;
+    --text-color: #0f172a;
+    --input-border-color: #e2e8f0;
+    --input-focus-color: #2563eb;
+    --btn-bg-color: #2563eb;
+    --btn-hover-bg: #1d4ed8;
+    --btn-text-color: #ffffff;
+    --shadow-sm: 0 1px 3px rgba(0,0,0,0.1);
+    --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.1);
+    --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+}
+
+.box {
+    width: 400px;
+    padding: 2rem;
+    background-color: var(--box-color);
+    box-shadow: var(--shadow-lg);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+h2 {
+    text-align: center;
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+}
+
+.inputbox {
+    position: relative;
+    margin-bottom: 1.25rem;
+    width: 100%;
+}
+
+.inputbox input {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 2px solid var(--input-border-color);
+    border-radius: 8px;
+    outline: none;
+    color: var(--text-color);
+    font-size: 0.875rem;
+    background: transparent;
+    transition: all 0.2s ease;
+}
+
+.inputbox input:focus {
+    border-color: var(--input-focus-color);
+    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
+}
+
+.inputbox span {
+    position: absolute;
+    left: 1rem;
+    padding: 0 0.25rem;
+    color: #64748b;
+    font-size: 0.875rem;
+    font-weight: 500;
+    pointer-events: none;
+    background: var(--box-color);
+    transition: all 0.2s ease;
+}
+
+.inputbox input:focus ~ span,
+.inputbox input:valid ~ span {
+    transform: translateY(-1.4rem) scale(0.85);
+    color: var(--highlight-color);
+}
+
+.inputbox i {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    width: 100%;
+    height: 2px;
+    background-color: var(--input-focus-color);
+    border-radius: 2px;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s;
+}
+
+.inputbox input:focus ~ i {
+    transform: scaleX(1);
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.875rem;
+    margin-bottom: 1.5rem;
+}
+
+.links a {
+    color: var(--highlight-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.links a:hover {
+    color: var(--btn-hover-bg);
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    outline: none;
+    background-color: var(--btn-bg-color);
+    color: var(--btn-text-color);
+    font-size: 0.875rem;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: var(--btn-hover-bg);
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-md);
+}
+
+input[type="submit"]:active {
+    transform: translateY(0);
+    box-shadow: var(--shadow-sm);
+}
