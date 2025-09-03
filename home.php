@@ -57,7 +57,7 @@ if (isset($_POST['add_to_cart'])) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BoiBD.com - Your Online Bookstore</title>
+  <title>BoiLagbe!.com - Your Online Bookstore</title>
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -80,7 +80,7 @@ if (isset($_POST['add_to_cart'])) {
   <section class="home_cont">
     <div class="main_descrip">
     <h1>Where Bookworms Belong.</h1>
-    <p>Thousands of titles. One perfect read. Dive into your next literary escape with BoiBD.com.</p>
+    <p>Thousands of titles. One perfect read. Dive into your next literary escape with Boi Lagbe!.com.</p>
     <button onclick="window.location.href='#featured'">Browse Books</button>
   </div>
 </section>
@@ -166,7 +166,7 @@ if (isset($_POST['add_to_cart'])) {
 <!-- About Section -->
   <section class="about_cont">
     <div class="about_descript">
-    <h2>About BOiBD.com</h2>
+    <h2>About Boi Lagbe!.com</h2>
     <p>Your premier destination for books of all genres. We believe in the power of reading to transform lives and inspire minds.</p>
     <ul class="features-list">
       <li><i class="fas fa-check"></i> Wide Selection of Books</li>
