@@ -28,7 +28,7 @@ if (isset($_POST['send'])) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact BookExpress</title>
+  <title>Contact Boi Lagbe!</title>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="style.css">
@@ -58,12 +58,12 @@ if (isset($_POST['send'])) {
       <div class="info-card">
         <i class="fas fa-phone"></i>
         <h3>Call Us</h3>
-        <p>+880 1787831313<br>Mon-Sat, 9am-6pm</p>
+        <p>+880 1971961137<br>Mon-Sat, 9am-6pm</p>
       </div>
       <div class="info-card">
         <i class="fas fa-envelope"></i>
         <h3>Email Us</h3>
-        <p>support@boibd.com<br>info@boibd.com</p>
+        <p>support@boilagbe.com<br>info@boilagbe.com</p>
       </div>
     </div>
   </div>
