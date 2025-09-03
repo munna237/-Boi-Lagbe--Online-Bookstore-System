@@ -16,7 +16,7 @@ if(isset($message)){
     <aside class="sidebar">
         <a href="admin_dashboard.php" class="brand">
             <i class="fas fa-book brand-icon"></i>
-                <span>BookExpress</span>
+                <span>Boi Lagbe!</span>
             </a>
         
         <div class="admin-profile">
