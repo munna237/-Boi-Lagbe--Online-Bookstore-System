@@ -4,7 +4,7 @@
             <div class="footer-section">
                 <div class="footer-brand">
                     <i class="fas fa-book"></i>
-                    <span>BoiBD.com</span>
+                    <span>Boi Lagbe!</span>
                 </div>
                 <p class="footer-description">
                     Your premier destination for books of all genres. We believe in the power of reading to transform lives and inspire minds.
@@ -50,11 +50,11 @@
                 <ul class="footer-contact">
                     <li>
                         <i class="fas fa-phone"></i>
-                        <span>+880 1787831313</span>
+                        <span>+880 1971961137</span>
                     </li>
                     <li>
                         <i class="fas fa-envelope"></i>
-                        <span>boibd@gmail.com</span>
+                        <span>boilagbe@gmail.com</span>
                     </li>
                     <li>
                         <i class="fas fa-map-marker-alt"></i>
@@ -70,12 +70,12 @@
 
         <div class="footer-bottom">
             <p class="copyright">
-                Copyright © <?php echo date('Y'); ?> BoiBD.com. All rights reserved.
+                Copyright © <?php echo date('Y'); ?> BoiLagbe!.com. All rights reserved.
             </p>
             <div class="footer-bottom-links">
-                <a href="#">Privacy Policy</a>
-                <a href="#">Terms of Service</a>
-                <a href="#">Cookie Policy</a>
+                <a href="privacy_policy.php">Privacy Policy</a>
+                <a href="terms_of_service.php">Terms of Service</a>
+                <a href="cookie_policy.php">Cookie Policy</a>
             </div>
         </div>
     </div>
