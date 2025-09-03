@@ -1066,3 +1066,70 @@
         height: 280px;
     }
 }
+
+/* Adjusting the main team section for better layout */
+.team-section {
+  padding: var(--spacing-xl) 0;
+  text-align: center;
+}
+
+/* Styling for the circular image wrapper */
+.team-member .team-member-img-wrapper {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 1.5rem; /* Centers the image and adds space below */
+    border: 4px solid var(--primary-light); /* Uses a light shade of the theme's primary color */
+    box-shadow: var(--shadow-md);
+    transition: all 0.3s ease;
+}
+
+.team-member:hover .team-member-img-wrapper {
+    border-color: var(--primary); /* Darkens border on hover */
+    transform: scale(1.05);
+}
+
+/* Ensure the image fills the circular wrapper perfectly */
+.team-member .team-member-img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Prevents the image from being distorted */
+}
+
+/* General styling for each team member card */
+.team-member {
+    background-color: var(--surface);
+    border-radius: 12px;
+    padding: var(--spacing-lg);
+    box-shadow: var(--shadow-md);
+    transition: all 0.3s ease;
+}
+
+.team-member:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+/* Styling for the member's name */
+.team-member h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 0 0 0.25rem;
+}
+
+/* Styling for the member's role (the colored text) */
+.team-member .role {
+    color: var(--primary); /* Uses the main theme color */
+    font-weight: 500;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+/* Styling for the member's description */
+.team-member p:not(.role) {
+    color: var(--text-secondary);
+    line-height: 1.6;
+    font-size: 0.9rem;
+}
