@@ -29,7 +29,7 @@ if(isset($_SESSION['user_id'])) {
     <div class="header-content">
         <a href="home.php" class="logo">
             <i class="fas fa-book"></i>
-            <span>BoiBD.com</span>
+            <span>Boi Lagbe!</span>
         </a>
 
         <?php include 'navbar.php'; ?>
