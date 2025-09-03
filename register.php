@@ -40,7 +40,7 @@ if(isset($_POST['submit'])){
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register - BookExpress</title>
+    <title>Register - Boi Lagbe!</title>
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -72,7 +72,7 @@ if(isset($message)){
     <div class="auth-card">
         <div class="auth-header">
             <h1>Create Account</h1>
-            <p>Join BookExpress and start exploring</p>
+            <p>Join Boi Lagbe! and start exploring</p>
         </div>
 
         <form action="" method="post" class="auth-form" id="registerForm" onsubmit="return validateForm()">
