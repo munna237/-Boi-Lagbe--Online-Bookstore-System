@@ -67,7 +67,7 @@ A PHP/MySQL-based online bookstore application where users can browse books, add
    - The website should now be running
 
 ## Default Admin Account
-- Email: admin@gmail.com
+- Email: hardcup@gmail.com
 - Password: 123
 - **IMPORTANT**: Change these credentials immediately after first login
 
